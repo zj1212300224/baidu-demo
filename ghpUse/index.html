@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)http://127.0.0.1:51004/view/115 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>git使用.md—C:\Users\ZH-J\Desktop</title>
+    <link rel="stylesheet" type="text/css" href="./gh_files/github.css">
+  </head>
+  <body>
+    <div class="container">
+      <div id="markup">
+        <article id="content" class="markdown-body"><h1>使用github page</h1>
+<h2>前言</h2>
+<h6>买不起服务器，没关系！你可以用github构建自己的博客。</h6>
+<h6>做完你会发现，so，easy！</h6>
+<h2>开始</h2>
+<ol>
+<li>请先注册一个github账号，谢谢</li>
+<li>新建仓库，像这样：
+    <center><img alt="" src="./gh_files/QzpcVXNlcnNcWkgtSlxEZXNrdG9wXHBnMS5wbmc="></center></li>
+<li>打开它是这样的
+    <center><img alt="" src="./gh_files/QzpcVXNlcnNcWkgtSlxEZXNrdG9wXHBnMi5wbmc="></center></li>
+<li>进入设置
+    <center><img alt="" src="./gh_files/QzpcVXNlcnNcWkgtSlxEZXNrdG9wXHBnMy5wbmc="></center></li>
+<li>编辑page信息
+    <center><img alt="" src="./gh_files/QzpcVXNlcnNcWkgtSlxEZXNrdG9wXHBnNC5wbmc="></center></li>
+<li>按照提示继续下去，选择风格，然后你就可以像我一样获得 page的地址的!  打开它！！！</li>
+</ol>
+<h5>当然，我知道你肯定还不满足，下面就说说，如何把gh-pages分支clone到本地，当然，你可以在setting里面直接设置gh-pages为默认分支，但是我个人感觉这样不太友好，下面就说说另一种方式</h5>
+<ol>
+<li>
+<p>clone 到本地</p>
+<p><code>git clone https://github.com/zj1212300224/baidu-demo.github</code></p>
+<p>然后你会发现clone这是master分支的，不是想要的。</p>
+</li>
+<li>
+<p>先进入项目，然后切换分支</p>
+<p><code>cd baidu-demo</code></p>
+<p><code>git checkout -b gh-pages origin/gh-pages</code></p>
+</li>
+<li>
+<p>然后你发现你成功了，项目中的文件也变了，就是gh-pages分支下的文件
+    </p><center><img alt="" src="./gh_files/QzpcVXNlcnNcWkgtSlxEZXNrdG9wXHBnNS5wbmc="></center><p></p>
+</li>
+<li>
+<p>然后你可以做你想做的
+    只要记得提交就好</p>
+<p><code>git add .</code></p>
+<p><code>git commit -m "say sth you do"</code>  提交到本地分支，生成一个commit对象</p>
+<p><code>git push origin gh-pages</code>   提交到远程分支</p>
+</li>
+</ol></article>
+      </div>
+    </div>
+  
+  <script type="text/x-omnimarkup-config;executed=true">
+    window.App.Context = {
+      buffer_id: 115,
+      timestamp: '1458457321.765519',
+      revivable_key: 'QzpcVXNlcnNcWkgtSlxEZXNrdG9wXGdpdOS9v+eUqC5tZA=='
+    };
+    window.App.Options = {
+      ajax_polling_interval: 500,
+      mathjax_enabled: false
+    };
+  </script>
+  <script type="text/javascript" src="./gh_files/jquery-2.1.3.min.js"></script>
+  <script type="text/javascript" src="./gh_files/imagesloaded.pkgd.min.js"></script>
+  <script type="text/javascript" src="./gh_files/app.js"></script>
+
+</body></html>
